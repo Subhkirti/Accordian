@@ -1,4 +1,5 @@
-*{
+
+ *{
   font-family: 'Cinzel', serif;
   color:rgb(5, 5, 78);
 }
@@ -9,6 +10,8 @@
   margin:2%;
   display: flex;
   flex-direction: row;
+  margin-bottom: 1rem;
+
 
 }
 #ans{
@@ -16,14 +19,12 @@
   color:rgb(85, 5, 5);
   background-color: rgb(250, 225, 225);
 }
-h3{
-  text-align: center;
-}
+
 #icon{
   margin-right: 2%;
   background-color: white;
   display:flex;
-  border-radius:2rem;
+  border-radius:50%;
   padding:1%;
   cursor: pointer;
   justify-content: flex-start;
@@ -49,4 +50,17 @@ body{
   display: flex;
   justify-content: center;
   padding: 2% 24% 2% 24%;
+}
+@media (max-width:425px) {
+  #main{
+    padding:4%;
+  }
+  #main h1{
+    font-size:20px;
+  }
+
+  #child h3,p{
+    font-size:8px;
+  }
+
 }
