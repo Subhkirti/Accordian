@@ -64,3 +64,11 @@ body{
   }
 
 }
+@media (max-width:375px) {
+  #main h1{
+    font-size:15px;
+  }
+
+  #child h3,p{
+    font-size:6px;
+  }
